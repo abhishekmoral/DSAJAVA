@@ -1,11 +1,14 @@
 package OPPs._01_UserDefinedDataType;
 
-public class _02_PassingClassesToMethods {
+public class _02_ {
     public static class Car{
-        int seats;
+        int seats;  // attributes
         String name;
         double length;
         String type;
+        void print(){
+            System.out.println(seats+",  "+name+ ", "+length+",907 "+type);
+        }
     }
     public  static void main(String[] args){
         Car c = new Car();
@@ -14,7 +17,7 @@ public class _02_PassingClassesToMethods {
         c.name = "Rubicon";
         c.type = "SUV";
         change(c);
-        System.out.println(c.seats);
+        c.print();
 
     }
 
