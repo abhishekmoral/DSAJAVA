@@ -5,7 +5,7 @@ public class _01_ {
         int seats; // 0
         String name; // null
         double length; // 0.0
-        Car(){ // default constructor
+        Car(){ // default constructor is not work is parameter wala is present.
 
         }
         Car(int x , String y, double z){
